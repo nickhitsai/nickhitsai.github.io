@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               蹲得越低, 跳得越高
-tagline:             Nick
-url:                 
+title:               還沒想到要打什麼站名
+tagline:             蹲得越低, 跳得越高
+url:
 paginate:            1
 baseurl:             ""
 
@@ -18,13 +18,13 @@ sass:
 # About/contact
 author:
   name:              Nick
-  url:               
+  url:
   email:             nick5130@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              
+  repo:
 
 # Gems
 gems:
