@@ -1,1 +1,0 @@
-This is my blog.Please refer to http://nickhitsai.github.io
