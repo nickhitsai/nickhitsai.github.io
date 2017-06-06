@@ -5,7 +5,7 @@ permalink:           pretty
 title:               還沒想到要打什麼站名
 tagline:             蹲得越低, 跳得越高
 url:
-paginate:            1
+paginate:            5
 baseurl:             ""
 
 # Assets
