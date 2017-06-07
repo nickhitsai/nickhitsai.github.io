@@ -2,7 +2,7 @@
 permalink:              pretty
 
 # Setup
-title:                  還沒想到要打什麼站名
+title:                  還沒想到要打什麼名字
 tagline:                蹲得越低, 跳得越高
 url:
 paginate:               5
@@ -22,7 +22,7 @@ author:
   email:
 
 # Custom vars
-version:                2.0.0
+version:                0.0.1
 github:
   repo:
 
@@ -32,7 +32,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github:
+  github:               nickhitsai
   instagram:
   linkedin:             nick-hungi-tsai-a74699a2
   pinterest:
