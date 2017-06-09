@@ -5,15 +5,15 @@ layout: default
 <article class="post">
   <header>
     <h1 class="post-title">{{ page.title }}</h1>
-    <div class="post-categories">
+    <div class="post-date">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
       {% if post %}
         {% assign categories = post.categories %}
       {% else %}
         {% assign categories = page.categories %}
       {% endif %}
       {% for category in categories %}
-      Category: {{category}}<time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-      <!-- <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a> -->
+      <span class="post-categories">Category: {{category}}</span>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </div>
@@ -21,19 +21,3 @@ layout: default
 
   {{ content }}
 </article>
-
-<!-- {% if site.related_posts != empty %}
-<aside class="related">
-  <h3>Related posts</h3>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</aside>
-{% endif %} -->
